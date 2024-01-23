@@ -4,16 +4,11 @@ def check_key(dictionary, key_to_check):
     else:
         print(f"The key '{key_to_check}' does not exist in the dictionary.")
 
-
-
 user_input = input("Enter key-value pairs for the dictionary (format: key1:value1,key2:value2,...): ")
 key_value_pairs = [pair.split(':') for pair in user_input.split(',')]
 
-# Create the dictionary
 my_dict = dict((key, value) for key, value in key_value_pairs)
 
-# Get input from the user to check if a key exists
 key_to_check = input("Enter a key to check if it exists in the dictionary: ")
 
-# Call the function to check if the key exists
 check_key(my_dict, key_to_check)
