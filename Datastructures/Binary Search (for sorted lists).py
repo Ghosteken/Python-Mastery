@@ -15,7 +15,8 @@ def binary_search(arr, target):
 
 
 sorted_list = [10, 20, 30, 40, 50, 60]
-target_element = 40
+target_element = 20
 print(binary_search(sorted_list, target_element))  
+
 
 
