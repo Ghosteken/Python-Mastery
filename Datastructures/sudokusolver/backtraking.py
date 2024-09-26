@@ -33,7 +33,7 @@ def find_empty_cell(board, N):
                 return i, j
     return None
 
-# Example usage:
+
 sudoku_board = [
     [3, 0, 6, 5, 0, 8, 4, 0, 0],
     [5, 2, 0, 0, 0, 0, 0, 0, 0],

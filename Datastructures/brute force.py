@@ -13,8 +13,7 @@ def find_primes_in_range(start, end):
             primes.append(num)
     return primes
 
-# Example usage:
 start_range = 1
 end_range = 50
 prime_numbers = find_primes_in_range(start_range, end_range)
-print(prime_numbers)  # Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+print(prime_numbers)  
